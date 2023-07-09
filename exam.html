@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Examination</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Online Examination</h1>
+    
+    <div id="question-container">
+      <div id="question"></div>
+      
+      <div id="options">
+        <div class="option">
+          <input type="radio" name="option" id="option1">
+          <label for="option1"></label>
+        </div>
+        
+        <div class="option">
+          <input type="radio" name="option" id="option2">
+          <label for="option2"></label>
+        </div>
+        
+        <div class="option">
+          <input type="radio" name="option" id="option3">
+          <label for="option3"></label>
+        </div>
+        
+        <div class="option">
+          <input type="radio" name="option" id="option4">
+          <label for="option4"></label>
+        </div>
+      </div>
+    </div>
+    
+    <div id="notification" class="notification">
+      Time's up! Moving to the next question...
+    </div>
+    
+    <div id="countdown-container">
+      Time Remaining: <span id="countdown">10</span> seconds
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

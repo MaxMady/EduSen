@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Online Examination</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f2f2f2;
+    }
+
+    .container {
+      width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid #ccc;
+      background-color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+
+    #start-btn {
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    button {
+      background-color: #333;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+  </style>
+  <script>
+    function startExam() {
+      window.location.href = "exam.html";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>Online Examination</h1>
+    
+    <div id="start-btn">
+      <button type="button" onclick="startExam()">Start Exam</button>
+    </div>
+  </div>
+</body>
+</html>

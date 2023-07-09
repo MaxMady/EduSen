@@ -1,0 +1,30 @@
+{
+  "name": "edusen",
+  "version": "1.0.0",
+  "description": "An application made in NodeJS for the serving the purpose of attending virtual examinations with high security and reducing cheats",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MaxMady/EduSen.git"
+  },
+  "keywords": [
+    "edu"
+  ],
+  "author": "max",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MaxMady/EduSen/issues"
+  },
+  "homepage": "https://github.com/MaxMady/EduSen#readme",
+  "devDependencies": {
+    "electron": "^25.2.0"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "ssl-root-cas": "^1.3.1"
+  }
+}
